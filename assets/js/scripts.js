@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
         Countdown initializer
     */
     var now = new Date();
-    var countFrom = '2013/09/19 08:00:00';
+    var countFrom = '2014/11/26 11:00:00';
     $('.timer').countdown(countFrom, function(event) {
         var $this = $(this);
         switch(event.type) {
